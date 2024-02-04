@@ -108,7 +108,7 @@ export default function Component() {
             <div className="space-y-2">
               <h2 className="text-4xl tracking-tighter md:text-5xl/tight">Projects</h2>
               <p className="max-w-[500px] mx-auto text-neutral-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-neutral-400">
-                Here are some of the projects I've worked on. You can find more on my GitHub profile.
+                Here are some of the projects I&apos;ve worked on. You can find more on my GitHub profile.
               </p>
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-neutral-900 px-8 text-sm font-medium text-neutral-50 shadow transition-colors hover:bg-neutral-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-neutral-50 dark:text-neutral-900 dark:hover:bg-neutral-50/90 dark:focus-visible:ring-neutral-300"
@@ -134,7 +134,7 @@ export default function Component() {
               <div className="p-6 border rounded-md shadow-sm bg-neutral-200 dark:bg-neutral-800">
                 <h3 className="text-2xl">Load Balancer</h3>
                 <p className="text-neutral-500 dark:text-neutral-400">
-                  A load balancer written in go which internally uses a very basic round-robin algorithm. It serves '/' to the the following hard-coded servers: google.com, bing.com, duckduckgo.com.
+                  A load balancer written in go which internally uses a very basic round-robin algorithm. It serves &apos;/&apos; to the the following hard-coded servers: google.com, bing.com, duckduckgo.com.
                 </p>
                 <Link
                   className="inline-flex h-10 items-center justify-center rounded-md bg-neutral-900 px-8 text-sm font-medium text-neutral-50 shadow transition-colors hover:bg-neutral-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-neutral-50 dark:text-neutral-900 dark:hover:bg-neutral-50/90 dark:focus-visible:ring-neutral-300 mt-4"
@@ -165,7 +165,7 @@ export default function Component() {
                 <h2 className="text-3xl tracking-tighter sm:text-5xl">Work Experience</h2>
                 <p className="max-w-[900px] text-neutral-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-neutral-400">
                   I have worked in various roles in the tech industry, from systems engineer to full stack engineer. Here are
-                  some of the companies I've worked for.
+                  some of the companies I&apos;ve worked for.
                 </p>
               </div>
             </div>
@@ -235,7 +235,7 @@ export default function Component() {
             <div className="space-y-2">
               <h2 className="text-3xl tracking-tighter md:text-4xl/tight">Contact Me</h2>
               <p className="max-w-[600px] text-neutral-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-neutral-400">
-                If you'd like to get in touch, feel free to email me at mohitpalsingh239@gmail.com.
+                If you&apos;d like to get in touch, feel free to email me at mohitpalsingh239@gmail.com.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row lg:justify-end">

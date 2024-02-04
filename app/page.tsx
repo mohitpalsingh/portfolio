@@ -4,21 +4,21 @@ import { FaArrowDown } from 'react-icons/fa';
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-neutral-100 dark:bg-neutral-900 font-sans">
-      <header className="flex items-center justify-center p-6 bg-neutral-200 dark:bg-neutral-900">
-        <nav className="hidden md:flex space-x-32">
-          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-lg lg:text-xl" href="#bio" style={{ letterSpacing: '2px' }}>
+      <header className="flex items-center justify-center p-4 bg-neutral-200 dark:bg-neutral-900">
+        <nav className="lg:space-x-32">
+          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-sm lg:text-xl ml-5" href="#bio" style={{ letterSpacing: '1px' }}>
             Bio
           </Link>
-          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-lg lg:text-xl" href="#skills" style={{ letterSpacing: '2px' }}>
+          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-sm lg:text-xl ml-5" href="#skills" style={{ letterSpacing: '1px' }}>
             Skills
           </Link>
-          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-lg lg:text-xl" href="#projects" style={{ letterSpacing: '2px' }}>
+          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-sm lg:text-xl ml-5" href="#projects" style={{ letterSpacing: '1px' }}>
             Projects
           </Link>
-          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-lg lg:text-xl" href="#experience" style={{ letterSpacing: '2px' }}>
+          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-sm lg:text-xl ml-5" href="#experience" style={{ letterSpacing: '1px' }}>
             Experience
           </Link>
-          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-lg lg:text-xl" href="#contact" style={{ letterSpacing: '2px' }}>
+          <Link className="text-neutral-900 hover:underline dark:text-neutral-50 text-sm lg:text-xl ml-5" href="#contact" style={{ letterSpacing: '1px' }}>
             Contact
           </Link>
         </nav>
@@ -47,7 +47,7 @@ export default function Component() {
               />
             </div>
           </div>
-          <div className="absolute bottom-8">
+          <div className="hidden lg:block absolute bottom-12">
             <p className="text-neutral-900 dark:text-neutral-400 font-cursive italic text-lg">Scroll down</p>
             <div className="mt-2 flex justify-center">
               <FaArrowDown className="text-neutral-900 dark:text-neutral-400 text-2xl" />
@@ -104,7 +104,7 @@ export default function Component() {
           </div>
         </section>
         <section className="w-full py-16 md:py-16 lg:py-16 max-w-8xl mx-auto grid items-start lg:grid-cols-5 lg:gap-12" id="projects">
-          <div className="flex flex-col justify-center space-y-4 text-center col-span-2">
+          <div className="flex flex-col justify-center space-y-4 text-center col-span-2 pl-16 pb-8 lg:pt-36">
             <div className="space-y-2">
               <h2 className="text-4xl tracking-tighter md:text-5xl/tight">Projects</h2>
               <p className="max-w-[500px] mx-auto text-neutral-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-neutral-400">
